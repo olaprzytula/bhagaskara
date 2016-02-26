@@ -1,0 +1,79 @@
+#overlap { padding: 5% 0 0 0; }
+
+.overlap {
+    margin: -25px auto 0 auto;
+    width: 600px;
+    height: 25px;
+    background-color: map-get($colors, first);
+}
+
+.gallery-container {
+    max-width: 610px;
+    margin: auto;
+}
+
+.less {
+    height: 510px;
+    overflow: hidden;
+    display: block;
+}
+
+.more {
+    height: 100%;
+}
+
+.portfolio { margin: 25px; }
+
+.portfolio li {
+  padding-top: 8px;
+  height: 25px;
+  width: 60px;
+  border: 1px solid map_get($colors, fourth);
+  border-radius: 5px;
+}
+.portfolio li:hover {
+    cursor: pointer;
+    color: white;
+    border-color: map_get($colors, second);
+    background-color: map_get($colors, second);
+}
+
+.portfolio-focus {
+    color: white;
+    border-color: map_get($colors, second) !important;
+    background-color: map_get($colors, second);
+}
+
+.gallery-item {
+    display: inline-block;
+}
+
+.plus {
+    position: absolute;
+    visibility: hidden;
+    background: rgba(0, 0, 0, .6);
+}
+
+.item {
+    height: 200px;
+    width: 200px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.item:hover {
+    cursor: pointer;
+    opacity: .8;
+    .plus {
+        visibility: visible;
+    }
+}
+
+.min { width: 200px; }
+
+.gallery-item h4 {
+    height: 20px;
+    font-size: 15px;
+}
+.gallery-item p { margin-bottom: 10px; }

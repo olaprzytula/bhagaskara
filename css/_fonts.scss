@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/lato-light.ttf');
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/lato-regular.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Existence-light;
+    src: url('../fonts/existence-light.otf');
+}
+
+nav p {
+    font-family: Existence-Light, sanserif;
+    font-size: 30px;
+}
+
+.bold { font-weight: bold; }
+
+.italic {
+    font-style: italic;
+    color: map-get($colors, fourth);
+}

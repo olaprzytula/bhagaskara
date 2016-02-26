@@ -1,0 +1,184 @@
+/********** FULL VERSION DESKTOP MINIMUM WIDTH 800 PX **********/
+
+/********** BIG SCREENS MINIMUM WIDTH 600 - 800 PX **********/
+@media screen and (max-width: 799px) {
+
+    h1 {
+        font-size: 80px;
+        padding: 30px;
+    }
+
+    h3 { font-size: 18px; }
+
+    header h3, header p { padding: 2px 5%; }
+
+    nav p {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .nav { margin: 20px; }
+
+    .introduction {
+        width: 600px;
+        height: 100%;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .icon {
+        display: inline-block;
+        margin-top: 2%;
+        width: 90px;
+        height: 98px;
+    }
+
+    .icon2 {
+        width: 105px;
+        height: 114px;
+    }
+
+    .subicon { height: 30px; }
+
+    .subicon2 {
+        height: 50px;
+        margin-top: 33%;
+    }
+
+}
+
+/********** MIDDLE SCREENS MINIMUM WIDTH 410 - 600 PX **********/
+@media screen and (max-width: 599px) {
+
+    #team .container { width: 400px; }
+
+    section { padding: 50px 10%; }
+
+    h1 {
+        font-size: 60px;
+        padding: 30px;
+    }
+
+    .introduction { width: 400px; }
+
+    .icon {
+        width: 55px;
+        height: 60px;
+        font-size: 10px;
+    }
+
+    .subicon { height: 20px; }
+
+    nav p { display: none !important; }
+
+    .nav { margin: 10px; }
+
+    .nav li { margin: 3px; }
+
+    .two {
+        width: 90%;
+        text-align: center;
+    }
+
+    .icon2 {
+        width: 83px;
+        height: 90px;
+        align-self: auto;
+    }
+
+    .icon3 { margin-bottom: 50px; }
+
+    .subicon2 {
+        height: 40px;
+        margin-top: 33%;
+    }
+
+    .characteristics {
+        width: 45%;
+        margin: 5% 1%;
+    }
+
+    .characteristics p { margin-top: 0; }
+
+    .about, .contact { display: inline-block; }
+
+    .overlap { width: 400px; }
+
+}
+
+/********** SMALL SCREENS MINIMUM WIDTH 0 - 410 PX **********/
+@media screen and (max-width: 409px) {
+
+    #team .container { width: 200px; }
+
+    section { padding: 30px 5%; }
+
+    h1 {
+        font-size: 40px;
+        padding: 25px;
+    }
+
+    .introduction { display: none; }
+
+    #arrow-down { margin: 30vh auto; }
+
+    .nav {
+        font-size: 10px;
+        margin: 2px;
+    }
+
+    .nav li { margin: 1px; }
+
+    .icon3 {
+        height: 146px;
+        width: 135px;
+    }
+
+    .subicon3 {
+        height: 50px;
+        margin-top: 36%;
+    }
+
+    .overlap { display: none; }
+
+    .portfolio, .toggle-more-less { display: none; }
+
+    .gallery-container {
+        width: 200px;
+        height: 255px;
+    }
+
+    .gallery {
+        width: 1827px;
+        height: 255px;
+        display: inline-block;
+    }
+
+    // gallery for small screens
+    #small-left, #small-right {
+        display: inline;
+        height: 33px;
+        width: 30px;
+        position: absolute;
+    }
+
+    #small-left:hover, #small-right:hover {
+        cursor: pointer;
+    }
+
+    #small-left {
+        margin-left: -40px;
+        margin-top: 80px;
+    }
+
+    #small-right {
+        margin-left: 110px;
+        margin-top: -180px;
+    }
+
+    footer {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+}

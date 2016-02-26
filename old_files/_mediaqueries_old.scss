@@ -1,0 +1,368 @@
+//PORTRAIT DESKTOP
+@media screen
+and (max-width: 6000px)
+and (max-height: 8000px)
+and (orientation: portrait) {
+
+    h1 { font-size: 90px; }
+
+    .introduction {
+        width: 400px;
+        display: inline-block;
+    }
+
+    .icon { display: inline-block; }
+
+    .icon2 {
+        width: 105px;
+        height: 114px;
+    }
+
+    .subicon2 {
+        height: 50px;
+        margin-top: 33%;
+    }
+
+    nav p { font-size: 20px; }
+
+    .nav { margin: 20px 10px; }
+
+    .screens {
+        height: 145px;
+        width: 240px;
+    }
+
+    #team, #overlap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .overlap { width: 500px; }
+
+    .gallery-container, .more { width: 100%; }
+
+}
+
+//LANDSCAPE TABLET
+@media screen
+and (max-width: 799px)
+and (max-height: 599px)
+and (orientation: landscape) {
+
+    section { padding: 50px 10%; }
+
+    h1 {
+        font-size: 70px;
+        padding: 40px;
+    }
+
+    h2 { font-size: 25px; }
+    h2::before {
+        margin-top: 25px;
+        margin-left: -15px;
+    }
+    h2::after {
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+
+    .introduction { height: 25vh; }
+
+    .icon, .icon2 {
+        width: 83px;
+        height: 90px;
+        align-self: auto;
+    }
+
+    .icon3 {
+        width: 138px;
+        height: 150px;
+        margin-bottom: 50px;
+    }
+
+    .subicon { height: 35px; }
+
+    .subicon2 {
+        height: 40px;
+        margin-top: 33%;
+    }
+
+    .subicon3 { margin-top: 35%; }
+
+    .nav { margin: 20px 10px; }
+
+    nav p { font-size: 20px; }
+
+    .screens {
+        background-size: contain;
+        height: 158px;
+        width: 277px;
+    }
+
+    #team { padding: 50px 0; }
+
+}
+
+//PORTRAIT TABLET
+@media screen
+and (max-width: 599px)
+and (max-height: 799px)
+and (orientation: portrait) {
+
+    section { padding: 50px 10%; }
+
+    h1 { font-size: 50px; }
+
+    h2 { font-size: 25px; }
+    h2::before {
+        margin-top: 25px;
+        margin-left: -15px;
+    }
+    h2::after {
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+
+    h4 {
+        font-size: 16px;
+        height: 25px;
+    }
+
+    header h3 { padding: 0 5%; }
+
+    header p { padding: 5%; }
+
+    .introduction {
+        width: 300px;
+        display: inline-block;
+        margin-top: 2vh;
+    }
+
+    .icon {
+        display: inline-block;
+        margin-top: 2%;
+        width: 90px;
+        height: 98px;
+    }
+
+    .icon2 {
+        width: 105px;
+        height: 114px;
+        margin: 5px auto;
+    }
+
+    .icon3 { margin-bottom: 50px; }
+
+    .subicon { height: 35px; }
+
+    .subicon2 {
+        height: 50px;
+        margin-top: 33%;
+    }
+
+    nav p { display: none !important; }
+
+    .nav {
+        font-size: 10px;
+        margin: 10px 0;
+    }
+
+    .characteristics {
+        width: 45%;
+        margin: 1%;
+    }
+
+    .screens {
+        background-size: contain;
+        background-position: center;
+        height: 145px;
+        width: 240px;
+    }
+
+    .two {
+        width: 90%;
+        text-align: center;
+    }
+
+    .about, .contact {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    #team, #overlap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #team .container { width: 300px; }
+
+    .person { width: 150px; }
+
+    .skills { padding: 0 10px; }
+
+    .testimonial h4 { height: 50px; }
+
+    .overlap { display: none; }
+
+    .gallery-container, .more { width: 100%; }
+
+    footer {
+        font-size: 25px;
+        padding: 12px;
+    }
+
+}
+
+//LANDSCAPE SMARTPHONE
+@media screen
+and (max-width: 599px)
+and (max-height: 359px)
+and (orientation: landscape) {
+
+    section { padding: 30px 10%; }
+
+    h1 {
+        font-size: 50px;
+        padding: 30px;
+    }
+
+    h2 { font-size: 20px; }
+    h2::before {
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    h2::after {
+        margin-top: -3px;
+        margin-left: 0;
+    }
+
+    h4 { height: 30px; }
+
+    .introduction { display: none; }
+
+    #arrow-down { margin: 20vh auto; }
+
+    .icon2 {
+        width: 83px;
+        height: 90px;
+        align-self: auto;
+    }
+
+    .icon3 {
+        width: 138px;
+        height: 150px;
+        margin-bottom: 50px;
+    }
+
+    .subicon { height: 35px; }
+
+    .subicon2 {
+        height: 40px;
+        margin-top: 33%;
+    }
+
+    .subicon3 { margin-top: 35%; }
+
+    .nav { margin: 5px 10px; }
+
+    nav p { display: none !important; }
+
+    .characteristics {
+        width: 45%;
+        margin: 5% 1%;
+    }
+
+    .characteristics p { margin-top: 0; }
+
+    .screens {
+        background-size: contain;
+        background-position: center;
+        height: 115px;
+    }
+
+    .two {
+        width: 90%;
+        text-align: center;
+    }
+
+    .about, .contact {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    #team { padding: 50px 0; }
+    //TEAM TWO AT A TIME
+
+    .skills { padding: 0 10px; }
+
+    .testimonial { margin-top: 30px; }
+
+    .testimonial h4 { height: 50px; }
+
+    .dots { margin-top: -35px; }
+
+    //GALLERY FIX HERE
+
+    footer {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+}
+
+//PORTRAIT SMARTPHONE
+@media screen
+and (max-width: 359px)
+and (max-height: 599px)
+and (orientation: portrait) {
+
+    section { padding: 30px 5%; }
+
+    h1 { font-size: 40px; }
+
+    .introduction { display: none; }
+
+    #arrow-down { margin-top: 13vh}
+
+    li { margin: 2px; }
+
+    .icon3 {
+        height: 146px;
+        width: 135px;
+    }
+
+    .subicon3 {
+        height: 50px;
+        margin-top: 36%;
+    }
+
+    //TEAM FIX HERE
+    //GALLERY FIX HERE
+}
+
+//GALLERY FOR SMALL SCREENS
+@media screen
+and (max-width: 409px) {
+
+    #small-left, #small-right {
+        display: inline;
+        height: 33px;
+        width: 30px;
+        position: absolute;
+    }
+
+    #small-left:hover, #small-right:hover {
+        cursor: pointer;
+    }
+
+    #small-left {
+        margin-left: -40px;
+        margin-top: 80px;
+    }
+
+    #small-right {
+        margin-left: 110px;
+        margin-top: -180px;
+    }
+
+}

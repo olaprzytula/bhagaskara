@@ -1,0 +1,62 @@
+/* @keyframes slider {
+    0% {
+        left: 0;
+    }
+    33%{
+        left: -600px;
+    }
+    67%{
+        left: -1200px;
+    }
+    100% {
+        left: 0;
+    }
+} */
+
+#team { padding: 100px 0 0 0; }
+
+.container {
+    width: 600px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.team {
+    height: 250px;
+    width: 1800px;
+    position: absolute;
+    // animation: 10s slider infinite;
+}
+
+.person {
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+
+.portrait {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.dany { background-image: url("../images/daenerys-targaryen.png"); }
+.eve { background-image: url("../images/eve.png"); }
+.gaby { background-image: url("../images/gaby-teller.png"); }
+.jay { background-image: url("../images/jay-gatsby.png"); }
+.morgan { background-image: url("../images/morgan-freeman.png"); }
+.han { background-image: url("../images/han-solo.png"); }
+.margot { background-image: url("../images/margot-tenenbaum.png"); }
+.sherlock { background-image: url("../images/sherlock-holmes.png"); }
+.wolf { background-image: url("../images/the-wolf.png"); }
+
+.bond { background-image: url("../images/james-bond.png"); }
+.q { background-image: url("../images/q.png"); }
+.dorothy { background-image: url("../images/dorothy.png"); }
+.keating { background-image: url("../images/john-keating.png"); }
+.butler { background-image: url("../images/rhett-butler.png"); }

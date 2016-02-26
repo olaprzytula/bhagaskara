@@ -1,0 +1,207 @@
+// works for width 500px & height 620px
+@media screen and (max-width: 799px), screen and (max-height: 599px) {
+
+    h1 {
+        font-size: 50px;
+        padding: 25px;
+    }
+
+    header h3, header p { padding: 0 10%; }
+
+    .introduction {
+        display: inline-block;
+        width: 400px;
+        margin-top: 5vh;
+    }
+
+    .icon {
+        display: inline-block;
+        width: 101px;
+        height: 110px;
+    }
+    .subicon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .upper, .middle, .lower {
+        align-self: auto;
+        margin: 5px;
+    }
+
+    .icon2 {
+        width: 71px;
+        height: 77px;
+    }
+    .heart { width: 42px; }
+    .diamond { width: 45px; margin-top: 33%; }
+    .cup { width: 33px; }
+    .phone { width: 25px; }
+
+    #arrow-down { margin-top: 30px; }
+
+    p.nav { display: none; }
+
+    .nav {
+        font-size: 13px;
+        margin: 10px;
+    }
+
+    .nav-placeholder { height: 46px !important; }
+
+    .screens {
+        height: 119px;
+        width: 200px;
+    }
+
+    .container { width: 400px; }
+
+    .person h4 { height: 30px; }
+
+    .skills h4, .skills p { font-size: 14px; }
+
+    .testimonial { width: 400px; }
+
+    .social p { font-size: 20px; }
+    .social {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+
+    .gallery-container {
+        width: 430px;
+    }
+
+    .gallery {
+        width: 430px;
+        height: 100%;
+    }
+
+    .more { height: 100%; }
+    .less { height: 255px; }
+
+}
+
+// works for width 320px & height 480px
+@media screen and (max-width: 499px), screen and (max-height: 499px) {
+
+    section { padding: 7% 5%; }
+
+    h1 { font-size: 45px; }
+    h2 { font-size: 20px; }
+    h3 { font-size: 16px; }
+    h4 { font-size: 14px; height: 20px;}
+
+    h2::before {
+        margin-top: 20px;
+        margin-left: -13px;
+    }
+    h2::after {
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+
+    header p { margin-top: 20px; }
+
+    .icon3 {
+        margin-bottom: 30px;
+        height: 150px;
+        width: 138px;
+    }
+    .subicon3 { margin-top: 35%; }
+
+    .introduction { display: none; }
+
+    #arrow-down { margin-top: 15%; }
+
+    .nav { margin: 5px; }
+
+    .nav li {
+        margin: 1px;
+        font-size: 10px;
+    }
+
+    .nav-placeholder { height: 26px !important; }
+
+    .anchor { top: -30px; }
+
+    .characteristics {
+        width: 42%;
+        margin: 3%;
+    }
+
+    .about {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .two { width: 90%; }
+
+    .screens {
+        width: 200px;
+        height: 119px;
+    }
+
+    button, .send {
+        margin: 5px auto;
+        display: block;
+    }
+
+    .container { width: 200px; }
+    #team .container { height: 220px; }
+
+    .skills { padding: 0 10px; }
+
+    .overlap { display: none; }
+
+    .quotes { width: 1000px; }
+
+    .testimonial { width: 200px; }
+
+    .testimonial h4 { height: 60px; }
+
+    #overlap ul, .toggle-more-less { display: none; }
+
+    .gallery-container { width: 200px; }
+
+    .gallery {
+        width: 2000px;
+        height: 255px;
+        display: inline-block;
+        margin-left: -87px;
+    }
+
+    #small-left, #small-right {
+        display: inline;
+        height: 33px;
+        width: 30px;
+        position: absolute;
+    }
+
+    #small-left:hover, #small-right:hover {
+        cursor: pointer;
+    }
+
+    #small-left {
+        margin-left: -40px;
+        margin-top: 80px;
+    }
+
+    #small-right {
+        margin-left: 110px;
+        margin-top: -180px;
+    }
+
+    .contact {
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    #social { text-align: center; }
+
+    footer {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+}
