@@ -22,8 +22,7 @@ html, css, sass, javascript, jquery, flexbox
 - jquery.localScroll-1.4.0 (https://plugins.jquery.com/localScroll/)
 <br/>for content scrolling
 - fancybox by fancyapps (http://fancyapps.com/fancybox/)
-<br/>for the lightbox, with some modifications in its css files,
-<br/>mainly not to display border around photos
+<br/>for the lightbox, with some modifications in its css files, mainly not to display border around photos
 
 ## Enjoy!
 Ola Przytula
