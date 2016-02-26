@@ -25,4 +25,7 @@ html, css, sass, javascript, jquery, flexbox
 <br/>for the lightbox, with some modifications in its css files, mainly not to display border around photos
 
 ## Enjoy!
-Ola Przytula
+You can see the full website here:
+<br/>http://www.olaprzytula.com/bhagaskara/
+<br/>
+<br/>Ola Przytula
